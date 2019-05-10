@@ -1,0 +1,38 @@
+---
+name: Nathan Moore
+position: "Data Analyst"
+address: "Panmure, Auckland"
+phone: 027 308 6129
+www: nmoore.nz
+email: "nath@nmoore.nz"
+twitter: nmoorenz
+github: nmoorenz
+linkedin: nmoorenz
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Personal 
+
+ * I grew up in Taranaki
+ * My favourite website is FiveThirtyEight
+ * My favourite company is SpaceX
+ 
+# Education
+ 
+ * Egmont Village Primary School, 1989-1997
+ * New Plymouth Boys' High School, 1998-2002
+ * Auckland University, 2003-2007
+ 
+# Professional 
+
+ * Mighty River Power, 2008-2011
+ * Mercury Energy, 2011-2014
+ * Bosco / Tiny Mighty, 2014
+ * Glo-Bug, 2014-2015
+ * Mercury, 2015-2019
